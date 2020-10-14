@@ -1,3 +1,4 @@
+```kotlin
 data class About(
         val name: String,
         val email: String,
@@ -18,5 +19,6 @@ fun main() = print(About(
                 "frameworks" to listOf("Spring", "Flutter"),
                 "databases" to listOf(""MySQL"),
         ),
-        interests = listOf( "Competitive Programing")
+        interests = listOf("Quantum Mechanics", "Competitive Programing", "Astrophysics")
 ).toString())
+```
